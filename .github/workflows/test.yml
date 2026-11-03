@@ -42,3 +42,4 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/mon-api-fastapi:latest
+
